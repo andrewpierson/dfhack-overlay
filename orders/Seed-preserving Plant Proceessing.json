@@ -1,0 +1,410 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "OneTime",
+		"id" : 35,
+		"is_active" : false,
+		"is_validated" : false,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BUCKET",
+				"value" : 2
+			}
+		],
+		"job" : "MilkCreature"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 20,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BAG",
+				"value" : 1
+			},
+			{
+				"condition" : "AtMost",
+				"material" : "PLANT:POD_SWEET:MILL",
+				"value" : 100
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:POD_SWEET:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:POD_SWEET:SEED",
+				"value" : 22
+			}
+		],
+		"job" : "MillPlants"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 23,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BARREL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:POD_SWEET:SEED",
+				"value" : 22
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"material" : "PLANT:POD_SWEET:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtMost",
+				"material" : "PLANT:POD_SWEET:EXTRACT",
+				"value" : 100
+			}
+		],
+		"job" : "ProcessPlantsBarrel"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 24,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"material" : "PLANT:POD_SWEET:STRUCTURAL",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "BREW_DRINK_FROM_PLANT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 27,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"material" : "PLANT:BUSH_QUARRY:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BAG",
+				"reaction_id" : "PROCESS_PLANT_TO_BAG",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "PROCESS_PLANT_TO_BAG"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 28,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "SEEDS",
+				"material" : "PLANT:BUSH_QUARRY:SEED",
+				"reaction_id" : "MILL_SEEDS_NUTS_TO_PASTE",
+				"reaction_product" : "PRESS_LIQUID_MAT",
+				"value" : 22
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "GLOB",
+				"value" : 100
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "MILL_SEEDS_NUTS_TO_PASTE"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 29,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BAG",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"millable",
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:GRASS_WHEAT_CAVE:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:GRASS_WHEAT_CAVE:SEED",
+				"value" : 22
+			}
+		],
+		"job" : "MillPlants"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 30,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:GRASS_WHEAT_CAVE:STRUCTURAL",
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"reaction_product" : "DRINK_MAT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "BREW_DRINK_FROM_PLANT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 32,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "FOOD",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten",
+					"cookable"
+				],
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:MUSHROOM_HELMET_PLUMP:SEED",
+				"value" : 22
+			}
+		],
+		"job" : "PrepareMeal",
+		"meal_ingredients" : 2
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 31,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:MUSHROOM_HELMET_PLUMP:STRUCTURAL",
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"reaction_product" : "DRINK_MAT",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "BREW_DRINK_FROM_PLANT"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 34,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten",
+					"processable"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:GRASS_TAIL_PIG:THREAD",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:GRASS_TAIL_PIG:SEED",
+				"value" : 22
+			}
+		],
+		"job" : "ProcessPlants"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 33,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:GRASS_TAIL_PIG:THREAD",
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"reaction_product" : "DRINK_MAT",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"value" : 1
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "DRINK",
+				"material" : "PLANT:GRASS_TAIL_PIG:DRINK",
+				"value" : 100
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "BREW_DRINK_FROM_PLANT"
+	}
+]

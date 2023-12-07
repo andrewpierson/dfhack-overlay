@@ -1,0 +1,368 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 3,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "BED",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"job" : "ConstructBed",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 4,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_TRAPCOMP_ENORMOUSCORKSCREW",
+				"item_type" : "TRAPCOMP",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"item_subtype" : "ITEM_TRAPCOMP_ENORMOUSCORKSCREW",
+		"job" : "MakeTrapComponent",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 10,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 5,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BARREL",
+				"value" : 10
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 10
+			}
+		],
+		"job" : "MakeBarrel",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 10,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 6,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BIN",
+				"value" : 10
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 10
+			}
+		],
+		"job" : "ConstructBin",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 10,
+		"amount_total" : 10,
+		"frequency" : "Daily",
+		"id" : 7,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "BLOCKS",
+				"value" : 10
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 10
+			}
+		],
+		"job" : "ConstructBlocks",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 8,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BUCKET",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"job" : "MakeBucket",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 9,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "CAGE",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"job" : "MakeCage",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 5,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 10,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "CRUTCH",
+				"value" : 5
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 5
+			}
+		],
+		"job" : "ConstructCrutch",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 11,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "PIPE_SECTION",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"job" : "MakePipeSection",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 12,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_SHIELD_SHIELD",
+				"item_type" : "SHIELD",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"item_subtype" : "ITEM_SHIELD_SHIELD",
+		"job" : "MakeShield",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 5,
+		"amount_total" : 5,
+		"frequency" : "Daily",
+		"id" : 13,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "SPLINT",
+				"value" : 5
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 5
+			}
+		],
+		"job" : "ConstructSplint",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 3,
+		"amount_total" : 3,
+		"frequency" : "Daily",
+		"id" : 14,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_TOOL_STEPLADDER",
+				"item_type" : "TOOL",
+				"value" : 3
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 3
+			}
+		],
+		"item_subtype" : "ITEM_TOOL_STEPLADDER",
+		"job" : "MakeTool",
+		"material_category" : 
+		[
+			"wood"
+		]
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 15,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_subtype" : "ITEM_TOOL_WHEELBARROW",
+				"item_type" : "TOOL",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "WOOD",
+				"value" : 1
+			}
+		],
+		"item_subtype" : "ITEM_TOOL_WHEELBARROW",
+		"job" : "MakeTool",
+		"material_category" : 
+		[
+			"wood"
+		]
+	}
+]

@@ -1,0 +1,136 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "OneTime",
+		"id" : 0,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BUCKET",
+				"value" : 2
+			}
+		],
+		"job" : "MilkCreature"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 20,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BAG",
+				"value" : 1
+			},
+			{
+				"condition" : "AtMost",
+				"material" : "PLANT:POD_SWEET:MILL",
+				"value" : 100
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "PLANT",
+				"material" : "PLANT:POD_SWEET:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:POD_SWEET:SEED",
+				"value" : 22
+			}
+		],
+		"job" : "MillPlants"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 23,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BARREL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"material" : "PLANT:POD_SWEET:SEED",
+				"value" : 22
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"material" : "PLANT:POD_SWEET:STRUCTURAL",
+				"value" : 1
+			},
+			{
+				"condition" : "AtMost",
+				"material" : "PLANT:POD_SWEET:EXTRACT",
+				"value" : 100
+			}
+		],
+		"job" : "ProcessPlantsBarrel"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 24,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"food_storage"
+				],
+				"reaction_id" : "BREW_DRINK_FROM_PLANT",
+				"value" : 1
+			},
+			{
+				"condition" : "AtLeast",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"material" : "PLANT:POD_SWEET:STRUCTURAL",
+				"value" : 1
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "BREW_DRINK_FROM_PLANT"
+	}
+]
