@@ -3,7 +3,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 125,
+		"id" : 391,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -44,7 +44,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 126,
+		"id" : 392,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -84,7 +84,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 127,
+		"id" : 393,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -122,7 +122,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 128,
+		"id" : 394,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -154,7 +154,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 129,
+		"id" : 395,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -184,7 +184,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 130,
+		"id" : 396,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -221,7 +221,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 131,
+		"id" : 397,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -262,7 +262,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 133,
+		"id" : 398,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -303,7 +303,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 134,
+		"id" : 399,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -331,7 +331,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 135,
+		"id" : 400,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -372,7 +372,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 138,
+		"id" : 401,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -406,7 +406,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 140,
+		"id" : 402,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -438,7 +438,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 132,
+		"id" : 403,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -474,7 +474,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 137,
+		"id" : 404,
 		"is_active" : true,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -501,7 +501,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 139,
+		"id" : 405,
 		"is_active" : true,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -530,5 +530,30 @@
 		],
 		"job" : "CustomReaction",
 		"reaction" : "BREW_DRINK_FROM_PLANT"
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 406,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten"
+				],
+				"item_type" : "GLOB",
+				"reaction_class" : "FAT",
+				"reaction_id" : "RENDER_FAT",
+				"reaction_product" : "RENDER_MAT",
+				"value" : 0
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "RENDER_FAT"
 	}
 ]
