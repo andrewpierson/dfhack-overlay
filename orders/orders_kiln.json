@@ -1,0 +1,44 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 605,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "BOULDER",
+				"reaction_class" : "GYPSUM",
+				"reaction_id" : "MAKE_PLASTER_POWDER",
+				"value" : 0
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BAG",
+				"reaction_id" : "MAKE_PLASTER_POWDER",
+				"value" : 0
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "BAR",
+				"material" : "COAL",
+				"value" : 0
+			},
+			{
+				"condition" : "LessThan",
+				"item_type" : "POWDER_MISC",
+				"material" : "INORGANIC:PLASTER",
+				"value" : 10
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "MAKE_PLASTER_POWDER"
+	}
+]
