@@ -1,0 +1,29 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 446,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"collected",
+					"plant"
+				],
+				"item_type" : "THREAD",
+				"min_dimension" : 15000,
+				"value" : 10
+			}
+		],
+		"job" : "WeaveCloth",
+		"material_category" : 
+		[
+			"plant"
+		]
+	}
+]
