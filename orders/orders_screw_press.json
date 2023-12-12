@@ -1,0 +1,112 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 448,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"non_pressed"
+				],
+				"item_subtype" : "ITEM_TOOL_HONEYCOMB",
+				"item_type" : "TOOL",
+				"reaction_id" : "PRESS_HONEYCOMB",
+				"reaction_product" : "HONEYCOMB_PRESS_MAT",
+				"value" : 0
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent"
+				],
+				"item_type" : "TOOL",
+				"reaction_id" : "PRESS_HONEYCOMB",
+				"tool" : "LIQUID_CONTAINER",
+				"value" : 0
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "PRESS_HONEYCOMB"
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 449,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten",
+					"non_pressed"
+				],
+				"item_type" : "PLANT_GROWTH",
+				"reaction_id" : "PRESS_OIL_FRUIT",
+				"reaction_product" : "PRESS_LIQUID_MAT",
+				"value" : 0
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent"
+				],
+				"item_type" : "TOOL",
+				"reaction_id" : "PRESS_OIL_FRUIT",
+				"tool" : "LIQUID_CONTAINER",
+				"value" : 0
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "PRESS_OIL_FRUIT"
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 450,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"non_pressed"
+				],
+				"item_type" : "GLOB",
+				"reaction_id" : "PRESS_OIL",
+				"reaction_product" : "PRESS_LIQUID_MAT",
+				"value" : 0
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"non_absorbent"
+				],
+				"item_type" : "TOOL",
+				"reaction_id" : "PRESS_OIL",
+				"tool" : "LIQUID_CONTAINER",
+				"value" : 0
+			}
+		],
+		"job" : "CustomReaction",
+		"reaction" : "PRESS_OIL"
+	}
+]
