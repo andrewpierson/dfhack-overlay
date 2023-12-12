@@ -1,0 +1,303 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 414,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "CHAIN",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"job" : "MakeChain",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 408,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BAG",
+				"value" : 2
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"job" : "ConstructBag",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 409,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_ARMOR_ROBE",
+				"item_type" : "ARMOR",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"item_subtype" : "ITEM_ARMOR_ROBE",
+		"job" : "MakeArmor",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 410,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_GLOVES_MITTENS",
+				"item_type" : "GLOVES",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"item_subtype" : "ITEM_GLOVES_MITTENS",
+		"job" : "MakeGloves",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 411,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_SHOES_SOCKS",
+				"item_type" : "SHOES",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"item_subtype" : "ITEM_SHOES_SOCKS",
+		"job" : "MakeShoes",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 412,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_SHOES_SHOES",
+				"item_type" : "SHOES",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"item_subtype" : "ITEM_SHOES_SHOES",
+		"job" : "MakeShoes",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 413,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_subtype" : "ITEM_HELM_HOOD",
+				"item_type" : "HELM",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"plant"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 5
+			}
+		],
+		"item_subtype" : "ITEM_HELM_HOOD",
+		"job" : "MakeHelm",
+		"material_category" : 
+		[
+			"cloth"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 415,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"sewn_imageless"
+				],
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"silk"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 1
+			}
+		],
+		"job" : "SewImage",
+		"material_category" : 
+		[
+			"silk"
+		]
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 416,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty",
+					"sewn_imageless"
+				],
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"yarn"
+				],
+				"item_type" : "CLOTH",
+				"min_dimension" : 10000,
+				"value" : 1
+			}
+		],
+		"job" : "SewImage",
+		"material_category" : 
+		[
+			"yarn"
+		]
+	}
+]
