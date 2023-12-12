@@ -1,0 +1,59 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 385,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "LIQUID_MISC",
+				"material" : "LYE",
+				"value" : 10
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "BAR",
+				"material" : "ASH",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"empty"
+				],
+				"item_type" : "BUCKET",
+				"value" : 1
+			}
+		],
+		"job" : "MakeLye"
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 386,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "BAR",
+				"material" : "POTASH",
+				"value" : 66
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "BAR",
+				"material" : "ASH",
+				"value" : 66
+			}
+		],
+		"job" : "MakePotashFromAsh"
+	}
+]
