@@ -1,0 +1,57 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 209,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"gem"
+				],
+				"item_type" : "ROUGH",
+				"value" : 1
+			}
+		],
+		"job" : "CutGems"
+	},
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 211,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_category" : 
+		[
+			"finished_goods"
+		],
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"gem"
+				],
+				"item_type" : "SMALLGEM",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"improvable",
+					"finished_goods"
+				],
+				"value" : 1
+			}
+		],
+		"job" : "EncrustWithGems"
+	}
+]

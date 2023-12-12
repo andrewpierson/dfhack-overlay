@@ -1,0 +1,64 @@
+[
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 212,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "TRAPPARTS",
+				"material" : "INORGANIC",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"non_economic",
+					"hard"
+				],
+				"item_type" : "BOULDER",
+				"material" : "INORGANIC",
+				"value" : 1
+			}
+		],
+		"job" : "ConstructMechanisms",
+		"material" : "INORGANIC"
+	},
+	{
+		"amount_left" : 1,
+		"amount_total" : 1,
+		"frequency" : "Daily",
+		"id" : 213,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "LessThan",
+				"item_type" : "TRACTION_BENCH",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "TABLE",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "TRAPPARTS",
+				"value" : 1
+			},
+			{
+				"condition" : "GreaterThan",
+				"item_type" : "CHAIN",
+				"value" : 1
+			}
+		],
+		"job" : "ConstructTractionBench"
+	}
+]
