@@ -3,7 +3,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 3,
+		"id" : 345,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -16,7 +16,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "ConstructBed",
@@ -29,7 +29,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 4,
+		"id" : 346,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -43,7 +43,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"item_subtype" : "ITEM_TRAPCOMP_ENORMOUSCORKSCREW",
@@ -57,7 +57,7 @@
 		"amount_left" : 10,
 		"amount_total" : 10,
 		"frequency" : "Daily",
-		"id" : 5,
+		"id" : 347,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -74,7 +74,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 10
+				"value" : 12
 			}
 		],
 		"job" : "MakeBarrel",
@@ -87,7 +87,7 @@
 		"amount_left" : 10,
 		"amount_total" : 10,
 		"frequency" : "Daily",
-		"id" : 6,
+		"id" : 348,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -104,7 +104,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 10
+				"value" : 12
 			}
 		],
 		"job" : "ConstructBin",
@@ -117,7 +117,7 @@
 		"amount_left" : 10,
 		"amount_total" : 10,
 		"frequency" : "Daily",
-		"id" : 7,
+		"id" : 349,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -130,7 +130,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 10
+				"value" : 12
 			}
 		],
 		"job" : "ConstructBlocks",
@@ -143,7 +143,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 8,
+		"id" : 350,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -160,7 +160,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeBucket",
@@ -173,7 +173,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 9,
+		"id" : 351,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -190,7 +190,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeCage",
@@ -203,7 +203,7 @@
 		"amount_left" : 5,
 		"amount_total" : 5,
 		"frequency" : "Daily",
-		"id" : 10,
+		"id" : 352,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -216,7 +216,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 5
+				"value" : 7
 			}
 		],
 		"job" : "ConstructCrutch",
@@ -229,7 +229,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 11,
+		"id" : 353,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -242,7 +242,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakePipeSection",
@@ -255,7 +255,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 12,
+		"id" : 354,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -269,7 +269,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"item_subtype" : "ITEM_SHIELD_SHIELD",
@@ -283,7 +283,7 @@
 		"amount_left" : 5,
 		"amount_total" : 5,
 		"frequency" : "Daily",
-		"id" : 13,
+		"id" : 355,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -296,7 +296,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 5
+				"value" : 7
 			}
 		],
 		"job" : "ConstructSplint",
@@ -309,7 +309,7 @@
 		"amount_left" : 3,
 		"amount_total" : 3,
 		"frequency" : "Daily",
-		"id" : 14,
+		"id" : 356,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -318,7 +318,7 @@
 				"condition" : "LessThan",
 				"item_subtype" : "ITEM_TOOL_STEPLADDER",
 				"item_type" : "TOOL",
-				"value" : 3
+				"value" : 1
 			},
 			{
 				"condition" : "GreaterThan",
@@ -337,7 +337,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 15,
+		"id" : 357,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -355,7 +355,7 @@
 			{
 				"condition" : "GreaterThan",
 				"item_type" : "WOOD",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"item_subtype" : "ITEM_TOOL_WHEELBARROW",

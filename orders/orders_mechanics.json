@@ -3,7 +3,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 212,
+		"id" : 368,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -23,7 +23,7 @@
 				],
 				"item_type" : "BOULDER",
 				"material" : "INORGANIC",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "ConstructMechanisms",
@@ -33,7 +33,7 @@
 		"amount_left" : 1,
 		"amount_total" : 1,
 		"frequency" : "Daily",
-		"id" : 213,
+		"id" : 369,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 

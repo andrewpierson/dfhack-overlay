@@ -3,7 +3,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 274,
+		"id" : 358,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -16,7 +16,7 @@
 					"shell",
 					"body_part"
 				],
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeGem",
@@ -29,7 +29,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 279,
+		"id" : 359,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -42,7 +42,7 @@
 					"bone",
 					"body_part"
 				],
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeGem",
@@ -55,7 +55,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 280,
+		"id" : 360,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -68,7 +68,7 @@
 					"horn",
 					"body_part"
 				],
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeGem",
@@ -81,7 +81,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 281,
+		"id" : 361,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -94,7 +94,7 @@
 					"body_part",
 					"ivory_tooth"
 				],
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeGem",
@@ -107,7 +107,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 282,
+		"id" : 362,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -120,7 +120,7 @@
 					"pearl",
 					"body_part"
 				],
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeGem",
@@ -133,7 +133,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 284,
+		"id" : 363,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -147,7 +147,7 @@
 				],
 				"item_type" : "BOULDER",
 				"material" : "INORGANIC",
-				"value" : 1
+				"value" : 3
 			},
 			{
 				"condition" : "LessThan",
@@ -169,7 +169,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 285,
+		"id" : 364,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -194,7 +194,7 @@
 				],
 				"item_type" : "BOULDER",
 				"material" : "INORGANIC",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"item_subtype" : "ITEM_TOOL_NEST_BOX",
@@ -205,7 +205,7 @@
 		"amount_left" : 0,
 		"amount_total" : 0,
 		"frequency" : "Daily",
-		"id" : 286,
+		"id" : 365,
 		"is_active" : false,
 		"is_validated" : true,
 		"item_conditions" : 
@@ -229,7 +229,7 @@
 				],
 				"item_type" : "BOULDER",
 				"material" : "INORGANIC",
-				"value" : 1
+				"value" : 3
 			}
 		],
 		"job" : "MakeGoblet",
