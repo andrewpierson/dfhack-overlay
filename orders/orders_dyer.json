@@ -1,0 +1,34 @@
+[
+	{
+		"amount_left" : 0,
+		"amount_total" : 0,
+		"frequency" : "Daily",
+		"id" : 425,
+		"is_active" : false,
+		"is_validated" : true,
+		"item_conditions" : 
+		[
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"collected",
+					"dyeable"
+				],
+				"item_type" : "THREAD",
+				"min_dimension" : 15000,
+				"value" : 3
+			},
+			{
+				"condition" : "GreaterThan",
+				"flags" : 
+				[
+					"unrotten",
+					"dye"
+				],
+				"value" : 1
+			}
+		],
+		"job" : "DyeThread"
+	}
+]
